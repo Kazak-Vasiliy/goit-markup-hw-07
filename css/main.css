@@ -491,16 +491,16 @@ img {
   padding-top: 94px;
 }
 
-.about__list {
+.about .about__list {
   display: flex;
   justify-content: space-between;
 }
 
-.about__item {
+.about .about__item {
   width: 270px;
 }
 
-.about__icons {
+.about .about__icons {
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--section-color);
@@ -509,7 +509,7 @@ img {
   align-items: center;
 }
 
-.about__title {
+.about .about__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -517,7 +517,7 @@ img {
   text-transform: uppercase;
 }
 
-.about__after-title {
+.about .about__after-title {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
