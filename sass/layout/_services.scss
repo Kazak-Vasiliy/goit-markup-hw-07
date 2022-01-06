@@ -7,15 +7,27 @@
   &:not(:last-child) {
     margin-right: 30px;
   }
-  .service__after-title {
-    position: absolute;
-    color: var(--white-color);
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(47, 48, 58, 0.8);
-    bottom: 0;
+}
+.service__thumb {
+  overflow: hidden;
+  position: relative;
+}
+.service__after-title {
+  @include font(700, 14px, 1.14, 0.03em);
+  text-transform: uppercase;
+  position: absolute;
+  color: var(--white-color);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  overflow: hidden;
+  transform: translateY(100%);
+  transition: transform 250ms var(--timeles);
+  .service__item:hover & {
+    transform: translateY(0);
   }
 }
