@@ -1,0 +1,28 @@
+.about {
+  padding-top: 94px;
+}
+.about__list {
+  display: flex;
+  justify-content: space-between;
+}
+.about__item {
+  width: 270px;
+}
+.about__icons {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--section-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__title {
+  @include font(700, 14px, 1.14, 0.03em);
+  text-transform: uppercase;
+}
+.about__after-title {
+  @include font(400, 14px, 1.71, 0.03em);
+  color: var(--second-color);
+  margin-top: 10px;
+}

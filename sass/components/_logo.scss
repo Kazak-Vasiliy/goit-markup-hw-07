@@ -1,0 +1,14 @@
+.logo {
+  span {
+    color: var(--variable-color);
+  }
+  @include font(700, 26px, 1.19, 0.03em);
+  font-family: var(--second-font);
+  color: inherit;
+}
+// logo from footer
+
+.footer__logo {
+  margin-right: 86px;
+  @extend .logo;
+}
